@@ -1,0 +1,16 @@
+Bude to smyčka. Nejdřív budou useři náhodně posílat REV náhodně ostatním =>
+seznam uživatelů musí být globálně dostupný. V určitý okamžik je koordinátor
+pozastaví, buď zruší nebo jen signalizuje vláknům aby zastavily. Počká 5 minut,
+a následně zkontroluje, zavolá vdag, že salda na všech účtech jsou stejná na všech nodech.
+
+Settle perioda:
+- Počkej 5 minut
+- Zavolej vdag na náhodném nodu
+- Počkej 5 minut
+- Deploy & propose get balances
+- Počkej 5 minut
+
+
+
+Kontrola sald:
+- 
