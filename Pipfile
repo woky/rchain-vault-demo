@@ -13,7 +13,10 @@ verify_ssl = true
 [packages]
 quart = "*"
 hypercorn = "*"
-pyrchain = {version = ">=0.1.4",index = "pypi"}
+#pyrchain = {version = ">=0.1.4",index = "pypi"}
+pyrchain = {path="/home/woky/rchain/10git/pyrchain", editable = true}
+structlog = "*"
+colorama = "*"
 
 [requires]
 python_version = "3.7"

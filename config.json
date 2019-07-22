@@ -1,0 +1,29 @@
+{
+  "admin_key": "84ef1b0e95cb63cae42984b3b0bd9bab274e100fd33af7e18c4b849614363400",
+  "rng_seed": 1,
+  "nodes": [
+    {
+      "address": "172.27.0.2:40401",
+      "rng_seed": 1,
+      "deploys_max_delay": 0,
+      "deploys_min_delay": 0,
+      "deploys_fixed_duration": 12,
+      "propose_max_delay": 2,
+      "propose_min_delay": 2,
+      "propose_time_limit": 25,
+      "propose_fixed_duration": 30,
+      "users": [
+        {
+		  "key": "fd17de64268b1cb7b2d7f548f70137cf1c2aa769a4d9f145dbb8ab3a6de3b023",
+          "initial_balance": 100000,
+          "rng_seed": 1,
+          "deploy_batch_max_size": 5,
+          "deploy_batch_min_size": 1,
+          "deploy_time_limit": 5,
+          "transfer_max_amount": 1000,
+          "transfer_min_amount": 100
+        }
+      ]
+    }
+  ]
+}
